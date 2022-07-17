@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+
+<head>
+    <title>Admin Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- Importing Bootstrap  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Importing Bootstrap JS plugin -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Importing the styles.css file and custom favicon -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="./images/favicon.ico">
+    <!-- Load the admin.js file -->
+    <script type="text/javascript" src="scripts/admin.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <!----Header of the webpage-->
+    <div class="header">
+        <img src="./images/cabs_pro_icon.png" alt="cabs_pro" class="logo">
+        <p class="header-title">CabsPro</p>
+        <div class="header-content">
+            <a class="booking-page" href="/CabsPro/src/booking.html">Booking</a>
+            <a class="admin-page" href="/CabsPro/src/admin.html">Admin</a>
+
+        </div>
+    </div>
+
+    <!-- Search content -->
+    <div class="container">
+        <div class="form-header">
+            <h1>Search Booking Requests</h1>
+        </div>
+        <form action="" method="post" id="search-form">
+            <label for="booking-request">Insert Reference Number (BRN):</label>
+            <input type="text" id="bsearch" name="bsearch" size="50" placeholder="e.g. BRN64283">
+            <button type="button" id="sbutton" name="sbutton" class="btn btn-primary" onClick="searchBooking()">Search
+                Requests</button>
+            <br><br><a id="booking-page-btn" href="/CabsPro/src/booking.html">Return to Booking Page</a><br><br>
+        </form>
+        <div class="content" id="reference-record" name="reference-record">
+
+        </div>
+    </div>
+
+    <!----Footer of the webpage-->
+    <div class="footer">
+        <div class="footer-content">
+            <p>Contact: cabspro@tempmail.com</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
