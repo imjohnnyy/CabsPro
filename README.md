@@ -1,7 +1,7 @@
 # CabsPro
 
 CabsPro is a web application that allows users to book taxis online.  
-**Technologies used:  JavaScript, PHP, JQuery, MySQL, Bootstrap, HTML and CSS**
+**Technologies used:  JavaScript, PHP, jQuery, MySQL, Bootstrap, HTML and CSS**
 </br>
 
 ## Functionalities:
