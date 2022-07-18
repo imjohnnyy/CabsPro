@@ -34,3 +34,8 @@ CabsPro is a web application that allows users to book taxis online.
 
 ### The admin can delete the user's booking and record:
 ![image](https://user-images.githubusercontent.com/87466526/179385211-8cd5a58c-2be9-4c91-a181-5a32bb83d20c.png)
+
+## Features to work on/add:
+- Authentication for Users and Admins
+- Improve the UI
+- Deploy the website
